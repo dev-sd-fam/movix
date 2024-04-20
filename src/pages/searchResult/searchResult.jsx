@@ -9,7 +9,7 @@ import ContentWrapper from "../../components/contentWrapper/ContentWrapper";
 import MovieCard from "../../components/movieCard/MovieCard";
 import Spinner from "../../components/spinner/Spinner";
 
-const searchResult = () => {
+const SearchResult = () => {
   const [data, setData] = useState(null);
   const [pageNum, setPageNum] = useState(1);
   const [loading, setLoading] = useState(false);
@@ -84,4 +84,4 @@ const searchResult = () => {
   );
 };
 
-export default searchResult;
+export default SearchResult;
